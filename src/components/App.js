@@ -1,9 +1,13 @@
 import './App.css'
-import FAQ from './FAQ';
-function App() {
+import Header from './Header'
+import Products from './Products'
+function App()
+{
+  
   return (
     <div className = 'App'>
-   <FAQ />
+      <Header />
+      <Products />
     </div>
   );
 }
